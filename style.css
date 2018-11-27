@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color: #f8f8f8;
+    background-image: url("BerauTourism.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment:fixed;
+}
+
+/*Untuk Navbar*/
+.fly{
+	background: -webkit-linear-gradient(left, #ccc, #999);
+	background: -moz-linear-gradient(left, #ccc, #999);
+	background: -o-linear-gradient(left, #ccc, #999);
+	background: -ms-linear-gradient(left, #ccc, #999);
+	background: linear-gradient(left, #ccc, #999);
+	font-family: "Segoe Print";
+	font-size: 18px;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+}
+.fly .logo {
+    position: absolute;
+}
+.fly .content {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    width: 85%;
+}
+.fly .content ul{
+    list-style-type: none;
+    float: right;
+}
+.fly .content ul li{
+    display: inline;
+}
+.fly .content ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+    border: 2px solid #f8f8f8;
+    border-style: outset;
+    border-radius: 25px;
+    color: #f8f8f8;
+    font-weight: bold;
+}
+.fly .content ul li a:hover{
+    background: rgba(248, 248, 248, .5);
+    color: #999;
+}
+.fly .content ul li .icon {
+    display: none;
+}
+
+/* Content untuk semua */
+.content{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-top: 70px;
+    border-bottom: 2px double;
+    width: 350px;
+}
+
+/*Untuk Home*/
+.isi{
+    max-width: 95%;
+    margin: auto;
+    margin-top: 250px;
+    padding-top: 0px;
+    background: rgba(248, 248, 248, .8);
+}
+.isi .menu{
+    max-width: 75%;
+}
+table{
+    margin: auto;
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.dalam a{
+    max-width: 50%;
+    margin: auto;
+}
+.dalam a img{
+    padding: 15px;
+    padding-bottom: 0;
+    width: 300px;
+    max-width: 100%;
+}
+.dalam a img:hover{
+    opacity: 0.5;
+}
+.tulis a{
+    text-decoration: none;
+    text-align: center;
+    font-family: "Segoe Print";
+    font-size: 18px;
+    font-weight: bold;
+    color: #4a4a4a;
+    display: block; 
+    margin-top: -13px;   
+}
+
+.about{
+    max-width: 100%;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+.about .us{
+    max-width: 75%;
+    margin: auto;
+}
+.foto{
+    margin: 10px 50px 0 50px;
+    height: 100px;
+    width: 80px;
+    border-radius: 50px;
+    background-color: #dfdfdf;
+}
+.us td{
+    margin: 5px;
+}
+.foto img{
+    border-radius: 50px;
+    max-height: 80px;
+    max-width: 60px;
+    margin: auto;
+    padding: 10px;
+}
+
+/*Untuk Form*/
+.form {
+	max-width: 316px;
+	background-color: #f2f2f2;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input[type=text] {
+    margin: 8px;
+    margin-bottom: 16px;
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px inset;
+    border-radius: 4px;
+}
+
+.nomor{
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+select {
+    margin: 8px;
+    width: 60px;
+    box-sizing: border-box;
+    border: 2px outset;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+select:hover {
+    border: 2px inset;
+}
+
+.nomor input[type=text] {
+    margin: 0;
+    margin-top: 9px;
+    margin-right: 8px;
+    width: 230px;
+    float: right;
+    box-sizing: border-box;
+    border: 2px inset;
+    border-radius: 4px;
+}
+
+textarea {
+	margin: 8px;
+    margin-bottom: 16px;
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px inset;
+    border-radius: 4px;
+    font-family: arial;
+}
+
+.pesan textarea {
+    height: 75px;
+}
+
+.gambar {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+.gambar input[type=text] {
+    background-color: #f2f2f2;
+    margin: 11.5px 8px;
+    width: 158px;
+    float: right;
+    border: none;
+}
+
+input[type=button] {
+    margin: 8px;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    border: 2px outset;
+    border-radius: 4px;
+    background-color: #fafafa;
+}
+
+input[type=button]:hover {
+    border: 2px inset;
+    background-color: #fafafa;
+}
+
+.tombol {
+    background-color: #f2f2f2;
+    width: 300px;
+    margin: 32px 0 8px 8px;
+}
+
+input[type=reset] {
+    margin: auto;
+    background-color: #ca1f5e;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset]:hover {
+    background-color: #d7497e;
+    cursor: pointer;
+}
+
+.tombol > input[type=button] {
+    margin: auto;
+    background-color: #1c5ece;
+    color: white;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.tombol > input[type=button]:hover {
+    background-color: #497ed7;
+    cursor: pointer;
+}
+
+/*Untuk Footer*/
+footer{
+    background: -webkit-linear-gradient(right, #ccc, #999);
+    background: -moz-linear-gradient(right, #ccc, #999);
+    background: -o-linear-gradient(right, #ccc, #999);
+    background: -ms-linear-gradient(right, #ccc, #999);
+    background: linear-gradient(right, #ccc, #999);
+    padding: 3px;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 770px) {
+    .fly{
+        font-size: 11px;
+    }
+    .fly .content{
+        top: 13px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .fly .content ul li a{
+        display: none;        
+    }
+    .fly .content ul li .icon{
+        top: 13px;
+        display: block;
+        float: right;
+        width: 30px;
+        margin: auto;
+    }
+    .fly .content ul li .icon:hover{
+        background: rgba(248, 248, 248, .5);
+        color: #999;
+    }
+}
+@media screen and (max-width: 600px) {
+    .fly .content.responsive {
+        background-color: inherit;
+        position: relative;
+        top: 15px;
+        float: right;
+    }
+    .fly .content.responsive ul li a{
+        float: none;
+        display: block;
+        text-align: left;
+        background-color: #999;
+        width: 133px;
+        font-size: 18px;
+    }
+    .fly .content.responsive ul li a:hover{
+        background: rgba(248, 248, 248, .5);
+        color: #999;
+    }
+}

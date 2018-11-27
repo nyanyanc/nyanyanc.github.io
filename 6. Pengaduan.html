@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pengaduan</title>
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="JavaScript.js"></script>
+</head>
+<body>
+	<div class="fly">
+		<a href="1. Home.html"><img class="logo" src="BerauTourism.png" width="150" height="60"></a>
+		<div class="content" id="myTopnav">
+			<ul>
+				<li><a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a></li>
+				<li><a href="1. Home.html">Home</a></li> 
+				<li><a href="2. Berita.html">Berita</a></li>
+				<li><a href="3. Wisata.html">Wisata</a></li>
+				<li><a href="4. Kuliner.html">Kuliner</a></li>
+				<li><a href="5. Seni Budaya.html">Seni Budaya</a></li>
+				<li><a href="6. Pengaduan.html">Pengaduan</a></li>
+			</ul>
+		</div>
+	</div>
+	<h1>FORM PENGADUAN</h1>
+	<div class="form">
+		<form name="pengaduan" method="post" action="">
+			Nama
+			<input type="text" id="nama" name="nama" placeholder="Nama Anda" max="20" required>
+			Email
+			<input type="text" id="email" name="email" placeholder="contoh@email.com" required>
+			<div class="nomor">
+				Nomor Telepon	
+				<br></b><select name="kode" id="kode" required>
+					<option selected disabled>Kode Negara</option>
+					<option value="+62">(+62) Indonesia</option>
+					<option value="+60">(+60) Malaysia</option>
+					<option value="+65">(+65) Singapura</option>
+					<option value="+63">(+63) Filipina</option>
+					<option value="+66">(+66) Thailand</option>
+				</select> <input type="text" id="telp" name="telp" placeholder="8xxxxxxxxxx" required>
+			</div>
+			Nama Pariwisata
+			<input type="text" name="pariwisata" placeholder="Nama Pariwisata" required>
+			Alamat Pariwisata
+			<textarea id="alamat" placeholder="Alamat Pariwisata" required></textarea>
+			<div class="pesan">
+				Pesan Pengaduan
+				<br><textarea id="pesan" placeholder="Tuliskan pesan yang ingin Anda sampaikan..." required></textarea>
+			</div>
+			<div class="gambar">
+				Gambar
+				<br><input type="button" id="masukGambar" value="Masukkan Gambar" onclick="document.getElementById('gambar').click()">
+				<input type="text" id="filename">
+				<input type="file" id="gambar" style="display: none;" onchange="document.getElementById('filename').value=this.value" name="gambar" accept="image/*">
+			</div>
+			<div class="tombol">
+				<input type="button" onclick="interima()" value="Kirim"><input type="reset" value="Batal">
+			</div>
+		</form>
+	</div>
+	<footer>
+		<div class="content">
+			<p>
+				&copy; AnnCitt 2018
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

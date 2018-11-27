@@ -1,0 +1,162 @@
+body{
+	width: 100%;
+	margin: 0px auto;
+}
+
+header{
+	background-color: #707070;
+	overflow: hidden;	
+	height: 100px;
+	left: 0;
+	width: 100%;
+
+}
+
+.logo{
+	float: left;
+}
+
+.logo img{
+	width: 30%;
+	margin: 3%;
+}
+
+.sebelahnya-logo{
+	max-width: 70%;
+	float: right;
+	margin-top: 2.5%;
+	margin-right: 2%;
+}
+
+.sebelahnya-logo a{
+	font-size: 14pt;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+table{
+	width: 95%;
+	margin: auto;
+	margin-bottom: 5%;
+}
+td{
+	text-align: justify;
+	padding: 5px;
+	width: 50%;
+}
+
+
+.art-header-berita{	
+	width: 100%;	
+	background-color: #21393E;
+	padding: 0.01%;
+	padding-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: white;
+}
+
+.art-header-wisata{	
+	width: 100%;	
+	background-color: #35DE99;
+	padding: 0.01%;
+	padding-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: white;
+}
+
+.art-header-kuliner{	
+	width: 100%;	
+	background-color: #FEB87B;
+	padding: 0.01%;
+	padding-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: white;
+}
+
+.art-header-senbud{	
+	width: 100%;	
+	background-color: #A8AC1D;
+	padding: 0.01%;
+	padding-left: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	color: white;
+}
+img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.head{
+	text-align: right;
+}
+
+h1 a{
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 a:hover{
+	text-decoration: none;
+	color: purple;
+}
+
+.readmore{
+	text-align: right;
+	padding-top: 2%;
+	font-size: 20pt;
+}
+
+.readmore a{
+	text-decoration: none;
+	color: red;
+}
+
+.readmore a:hover{
+	text-decoration: none;
+	color: purple;
+}
+
+@media screen and (min-width: 601px) {
+	.art-header-berita{
+		font-size: 100%;
+	}
+	.head {
+		font-size: 100%;
+	}
+
+	.text{
+		font-size: 100%;
+	}
+	.readmore a{
+		font-size: 100%;
+	}
+	footer{
+		font-size: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.art-header-berita{
+		font-size: 50%;
+	}
+	.head {
+		font-size: 50%;
+	}
+
+	.text{
+		font-size: 50%;
+	}
+
+	.readmore a{
+		font-size: 50%;
+	}
+	footer{
+		font-size: 50%;
+	}
+}
